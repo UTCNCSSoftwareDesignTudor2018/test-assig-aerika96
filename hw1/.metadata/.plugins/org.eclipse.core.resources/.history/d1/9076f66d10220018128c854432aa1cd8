@@ -1,0 +1,10 @@
+
+public abstract class Vehicle {
+
+	public enum Surface {LAND, WATER,AIR};
+	private Surface rideOn;
+	private float price;
+	
+	
+	
+}

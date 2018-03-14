@@ -1,0 +1,12 @@
+package main;
+import CreateVehicle ;
+
+public class VehicleFactory {
+
+	public CreateVehicle getVehicle(String type){
+		if(type.equalsIgnoreCase("CAR")){
+			return new CreateCar();
+		}
+	}
+	
+}

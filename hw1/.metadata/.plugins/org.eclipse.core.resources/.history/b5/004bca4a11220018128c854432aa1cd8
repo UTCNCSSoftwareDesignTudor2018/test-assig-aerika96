@@ -1,0 +1,10 @@
+import Vehicle.Surface;
+
+public class Boat extends Vehicle{
+	
+	public Boat (){
+		this.rideOn = Surface.WATER;
+		
+	}
+
+}
